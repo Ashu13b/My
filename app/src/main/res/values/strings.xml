@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My</string>
+    <string name="my">my</string>
+    <string name="highscore">highscore</string>
+    <string name="play">Play</string>
+    <string name="quit">quit</string>
+</resources>
