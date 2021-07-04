@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Object GameActivity;
+    private GameActivity gameActivity= new   GameActivity();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent i;
-        i= new Intent(this, (Class<?>) GameActivity);
+        i= new Intent(this ,gameActivity.getClass());
         startActivity(i);
     }
 }
