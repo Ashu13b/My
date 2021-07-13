@@ -32,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="67dp"
+        android:onClick="onClick"
         android:text="@string/play"
         app:layout_constraintBottom_toTopOf="@+id/buttonHs"
         app:layout_constraintEnd_toEndOf="parent"
